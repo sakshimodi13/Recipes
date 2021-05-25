@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  backend:
+    build: './recipes-backend'
+
+  frontend:
+    build: './recipes-frontend'
+    ports: 
+      - "80:80"
